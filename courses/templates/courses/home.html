@@ -1,0 +1,10 @@
+<h2>Available Courses</h2>
+<ul>
+    {% for course in courses %}
+    <li>{{ course.title }} - {{ course.category }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'create_course' %}">Create Course</a> |
+<a href="{% url 'create_student' %}">Create Student</a> |
+<a href="{% url 'enroll_student' %}">Enroll Student</a> |
+<a href="{% url 'admin_dashboard' %}">Admin Dashboard</a>

@@ -1,0 +1,6 @@
+<h2>Admin Dashboard</h2>
+<ul>
+    {% for enrollment in enrollments %}
+    <li>{{ enrollment.student.name }} enrolled in {{ enrollment.course.title }}</li>
+    {% endfor %}
+</ul>
