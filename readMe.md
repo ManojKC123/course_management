@@ -32,7 +32,7 @@ Installation
 
 1. Clone the Repository
 
-git clone https://github.com/your-repo/course-management.git
+git clone (https://github.com/ManojKC123/course_management.git
 cd course-management
 
 2. Create a Virtual Environment
